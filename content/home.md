@@ -10,7 +10,7 @@ products:
     description:
       Look at Frozen Snacks in a whole new way - Get nutrition, taste and
       variety all in one go!
-    image: assets/images/no-image.png
+    image: assets/images/frozen-snacks.png
   - name: Cooking Pastes
     description:
       Chef Style Food, Now at Home in just 3 easy steps - to turn every
