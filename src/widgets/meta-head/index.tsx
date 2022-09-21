@@ -18,15 +18,15 @@ const MetaHead = ({ title }: Props) => {
         <link rel="“canonical”" href="https://itc-masterchef.netlify.app" />
         <link
           rel="shortcut icon"
-          href="/images/favicon.png"
+          href="/images/itcLogo.png"
           type="image/x-icon"
         />
 
-        {/* <meta name="title" content="ITC MasterChef" />
+        <meta name="title" content="ITC MasterChef" />
         <meta name="description" content="ITC MasterChef India" />
 
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://zemidi.arodos.com" />
+        <meta property="og:url" content="https://itc-masterchef.netlify.app" />
         <meta property="og:title" content="ITC MasterChef India" />
         <meta
           name="description"
@@ -35,17 +35,20 @@ const MetaHead = ({ title }: Props) => {
         />
         <meta
           property="og:image"
-          content="https://zemidi.arodos.com/images/icon.png"
+          content="https://itc-masterchef.netlify.app/images/itcLogo.png"
         />
 
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://zemidi.arodos.com" />
+        <meta
+          property="twitter:url"
+          content="https://itc-masterchef.netlify.app"
+        />
         <meta property="twitter:title" content="ITC MasterChef India" />
         <meta property="twitter:description" content="ITC MasterChef India" />
         <meta
           property="twitter:image"
-          content="https://zemidi.arodos.com/images/icon.png"
-        /> */}
+          content="https://itc-masterchef.netlify.app/images/itcLogo.png"
+        />
       </Head>
     </>
   );
