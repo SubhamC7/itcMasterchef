@@ -37,7 +37,10 @@ const MetaHead = ({ title }: Props) => {
           property="og:image"
           content="https://itc-masterchef.netlify.app/images/itcLogo.png"
         />
-
+        <meta
+          property="og:image:secure_url"
+          content="https://itc-masterchef.netlify.app/images/logo.png"
+        />
         <meta property="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:url"
