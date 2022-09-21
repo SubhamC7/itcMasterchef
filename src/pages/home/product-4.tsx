@@ -4,7 +4,7 @@ type Props = { animateClass: any; smoothScroll: any; data: any; img: any };
 
 const Product4 = ({ animateClass, smoothScroll, data, img }: Props) => {
   return (
-    <div className="h-screen w-full flex items-center justify-center">
+    <div className="h-screen w-full flex flex-wrap items-center justify-center">
       <div
         className={`${animateClass} w-full lg:w-1/2 flex items-center justify-center lg:justify-end p-4`}
       >
