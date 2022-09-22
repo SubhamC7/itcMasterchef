@@ -59,25 +59,24 @@ const Footer = ({ smoothScroll }: Props) => {
       >
         Cooking Pastes
       </a>
-      <div className="flex flex-col justify-center space-y-2 md:w-52 font-thin">
-        <a
-          onClick={() => {
-            smoothScroll("product3");
-          }}
-          className={`w-fit transition-all duration-500 hover:cursor-pointer hover:text-amber-500 whitespace-nowrap`}
-        >
-          All-Purpose Gravies
-        </a>
-        <a
-          onClick={() => {
-            smoothScroll("product4");
-          }}
-          className={`w-fit transition-all duration-500 hover:cursor-pointer hover:text-amber-500 whitespace-nowrap`}
-        >
-          Dips & Spreads
-        </a>
+      <a
+        onClick={() => {
+          smoothScroll("product3");
+        }}
+        className={`w-fit transition-all duration-500 hover:cursor-pointer hover:text-amber-500 whitespace-nowrap`}
+      >
+        All-Purpose Gravies
+      </a>
+      <a
+        onClick={() => {
+          smoothScroll("product4");
+        }}
+        className={`w-fit transition-all duration-500 hover:cursor-pointer hover:text-amber-500 whitespace-nowrap`}
+      >
+        Dips & Spreads
+      </a>
 
-        {/* <a
+      {/* <a
           onClick={() => {
             smoothScroll("about");
           }}
@@ -85,7 +84,6 @@ const Footer = ({ smoothScroll }: Props) => {
         >
           About
         </a> */}
-      </div>
     </div>
   );
 
