@@ -33,14 +33,14 @@ select:required:invalid {
 @tailwind utilities;
 
 .headerLogo {
-  background-image: url("/images/logo.png");
+  background-image: url("/icons/logo.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .headerLogoRight {
-  background-image: url("/images/itcLogo.png");
+  background-image: url("/icons/itcLogo.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;

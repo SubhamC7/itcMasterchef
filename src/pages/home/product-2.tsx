@@ -1,14 +1,14 @@
 import React from "react";
 
-type Props = { animateClass: any; smoothScroll: any; data: any; img: any };
+type Props = { animateClass: any; smoothScroll: any; data: any };
 
-const Product2 = ({ animateClass, smoothScroll, data, img }: Props) => {
+const Product2 = ({ animateClass, smoothScroll, data }: Props) => {
   return (
     <div className="h-screen w-full flex flex-wrap items-center justify-center">
       <div
         className={`${animateClass} w-full lg:w-1/2 flex items-center justify-center lg:justify-end p-4`}
       >
-        <img src={img.src} />
+        <img src={data.image} />
       </div>
       <div
         className={`${animateClass} w-full lg:w-1/2 flex flex-col items-center lg:items-start justify-center space-y-5 p-4`}

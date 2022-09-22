@@ -14,10 +14,11 @@ import Product3 from "./product-3";
 import Product4 from "./product-4";
 
 import bgImg from "assets/images/frozen-snacks-bg-pattern.png";
-import img1 from "assets/images/frozen-snacks.png";
-import img2 from "assets/images/659x383.png";
-import img3 from "assets/images/Website-banner-basegravies.png";
-import img4 from "assets/images/Website-Banner_Chutneys.png";
+// import img1 from "../mages/frozen-snacks.png";
+// import img1 from "/icons/itcLogo.png";
+// import img2 from "/images/659x383.png";
+// import img3 from "/images/Website-banner-basegravies.png";
+// import img4 from "/images/Website-Banner_Chutneys.png";
 import About from "./about";
 import Footer from "widgets/footer";
 
@@ -26,7 +27,7 @@ type Props = {};
 const Home = (props: Props) => {
   const [paddingClass] = AppStore("paddingClass");
 
-  let { aboutTitle, aboutText, products } = attributes;
+  let { heroImage, aboutTitle, aboutText, products } = attributes;
 
   const topRef: any = useRef(null);
   const aboutRef: any = useRef(null);
@@ -117,7 +118,7 @@ const Home = (props: Props) => {
       <MetaHead title="ITC Masterchef" />
       <Header smoothScroll={smoothScroll} />
       <div ref={topRef}>
-        <Hero />
+        <Hero heroImage={heroImage} />
       </div>
       <div className={`z-10 relative ${paddingClass}`}>
         <div ref={product1Ref}>
@@ -125,7 +126,6 @@ const Home = (props: Props) => {
             animateClass="holder"
             smoothScroll={smoothScroll}
             data={products[0]}
-            img={img1}
           />
         </div>
         <div ref={product2Ref}>
@@ -133,7 +133,6 @@ const Home = (props: Props) => {
             animateClass="holder"
             smoothScroll={smoothScroll}
             data={products[1]}
-            img={img2}
           />
         </div>
         <div ref={product3Ref}>
@@ -141,7 +140,6 @@ const Home = (props: Props) => {
             animateClass="holder"
             smoothScroll={smoothScroll}
             data={products[2]}
-            img={img3}
           />
         </div>
         <div ref={product4Ref}>
@@ -149,7 +147,6 @@ const Home = (props: Props) => {
             animateClass="holder"
             smoothScroll={smoothScroll}
             data={products[3]}
-            img={img4}
           />
         </div>
       </div>

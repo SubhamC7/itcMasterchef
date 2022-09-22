@@ -18,7 +18,7 @@ const MetaHead = ({ title }: Props) => {
         <link rel="“canonical”" href="https://itc-masterchef.netlify.app" />
         <link
           rel="shortcut icon"
-          href="/images/itcLogo.png"
+          href="/icons/itcLogo.png"
           type="image/x-icon"
         />
 
@@ -35,11 +35,11 @@ const MetaHead = ({ title }: Props) => {
         />
         <meta
           property="og:image"
-          content="https://itc-masterchef.netlify.app/images/itcLogo.png"
+          content="https://itc-masterchef.netlify.app/icons/itcLogo.png"
         />
         <meta
           property="og:image:secure_url"
-          content="https://itc-masterchef.netlify.app/images/logo.png"
+          content="https://itc-masterchef.netlify.app/icons/logo.png"
         />
         <meta property="twitter:card" content="summary_large_image" />
         <meta
@@ -50,7 +50,7 @@ const MetaHead = ({ title }: Props) => {
         <meta property="twitter:description" content="ITC MasterChef India" />
         <meta
           property="twitter:image"
-          content="https://itc-masterchef.netlify.app/images/itcLogo.png"
+          content="https://itc-masterchef.netlify.app/icons/itcLogo.png"
         />
       </Head>
     </>

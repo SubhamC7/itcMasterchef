@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/home-banner-img.jpg"
 aboutTitle: About ITC Master Chef of India
 aboutText: ITC Master Chef aims to inspire you to find your inner Master Chef.
   It brings a range of quality ingredients and ready to cook products that make
@@ -10,20 +11,20 @@ products:
     description:
       Look at Frozen Snacks in a whole new way - Get nutrition, taste and
       variety all in one go!
-    image: assets/images/frozen-snacks.png
+    image: "/images/frozen-snacks.png"
   - name: Cooking Pastes
     description:
       Chef Style Food, Now at Home in just 3 easy steps - to turn every
       novice into a master chef!
-    image: assets/images/no-image.png
+    image: "/images/659x383.png"
   - name: All-Purpose Gravies
     description:
       "One Gravy, Many Dishes. Make a variety of delicious dishes with
       just 1 gravy! #ReadyIn123"
-    image: assets/images/no-image.png
+    image: "/images/Website-banner-basegravies.png"
   - name: DIPS & SPREADS
     description:
       "Elevate everyday meals with our uniquely flavoured dips & spreads!
       #DipItSpreadIt"
-    image: assets/images/no-image.png
+    image: "/images/Website-Banner_Chutneys.png"
 ---

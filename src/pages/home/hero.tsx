@@ -8,9 +8,10 @@ import AppStore from "AppStore";
 type Props = {
   // homeAnimation: any;
   smoothScroll?: any;
+  heroImage: any;
 };
 
-const Hero = ({ smoothScroll }: Props) => {
+const Hero = ({ smoothScroll, heroImage }: Props) => {
   return (
     <section
       id="hero"
@@ -18,7 +19,7 @@ const Hero = ({ smoothScroll }: Props) => {
     >
       <img
         className="object-cover h-full w-full pointer-events-none"
-        src={heroBg.src}
+        src={heroImage}
       />
       <img
         className="absolute object-cover w-[20rem] sm:w-[30rem] lg:w-[40rem] pointer-events-none"
