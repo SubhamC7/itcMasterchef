@@ -1,5 +1,5 @@
 ---
-heroImage: images/_methode_sundaytimes_prod_web_bin_3ec2d894-1e1b-11ed-a998-c45bf98575eb.jpg
+heroImage: images/1777e746-adac-44e5-9836-44f0303b50f0.png
 aboutTitle: About ITC Master Chef of India
 aboutText: ITC Master Chef aims to inspire you to find your inner Master Chef.
   It brings a range of quality ingredients and ready to cook products that make
