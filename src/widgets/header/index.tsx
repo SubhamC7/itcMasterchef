@@ -60,7 +60,7 @@ const Header = ({ smoothScroll }: Props) => {
             }}
             className="text-white font-semibold cursor-pointer hover:text-amber-500 transition-all duration-500"
           >
-            DIPS & SPREADS
+            Dips & Spreads
           </a>
           <a
             onClick={() => {

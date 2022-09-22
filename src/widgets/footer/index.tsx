@@ -74,7 +74,7 @@ const Footer = ({ smoothScroll }: Props) => {
           }}
           className={`w-fit transition-all duration-500 hover:cursor-pointer hover:text-amber-500 whitespace-nowrap`}
         >
-          DIPS & SPREADS
+          Dips & Spreads
         </a>
 
         {/* <a
