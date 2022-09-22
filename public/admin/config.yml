@@ -7,9 +7,9 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
-      - label: "Home"
-        name: "home"
-        file: "content/home.md"
+      - label: "Content Storage"
+        name: "content-storage"
+        file: "content/content-storage.md"
         fields:
           - {
               label: "Hero Image",

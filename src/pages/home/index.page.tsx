@@ -2,7 +2,10 @@ import React, { useEffect, useRef } from "react";
 
 import Head from "next/head";
 import { Component } from "react";
-import { attributes, react as HomeContent } from "../../../content/home.md";
+import {
+  attributes,
+  react as contentStorage,
+} from "../../../content/content-storage.md";
 
 import AppStore from "AppStore";
 import Header from "widgets/header";
@@ -12,15 +15,10 @@ import Product1 from "./product-1";
 import Product2 from "./product-2";
 import Product3 from "./product-3";
 import Product4 from "./product-4";
-
-import bgImg from "assets/images/frozen-snacks-bg-pattern.png";
-// import img1 from "../mages/frozen-snacks.png";
-// import img1 from "/icons/itcLogo.png";
-// import img2 from "/images/659x383.png";
-// import img3 from "/images/Website-banner-basegravies.png";
-// import img4 from "/images/Website-Banner_Chutneys.png";
 import About from "./about";
 import Footer from "widgets/footer";
+
+import bgImg from "assets/images/frozen-snacks-bg-pattern.png";
 
 type Props = {};
 
