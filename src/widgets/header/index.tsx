@@ -21,7 +21,7 @@ const Header = ({ smoothScroll }: Props) => {
             <div className={`headerLogo w-24 h-16 md:w-28 md:h-20`} />
           </div>
         </a>
-        <div className="hidden md:flex items-center justify-center space-x-6">
+        <div className="hidden text-sm xl:text-base lg:flex items-center justify-center space-x-4 xl:space-x-6">
           <a
             onClick={() => {
               smoothScroll("top");
@@ -52,7 +52,7 @@ const Header = ({ smoothScroll }: Props) => {
             }}
             className="text-white font-semibold cursor-pointer hover:text-amber-500 transition-all duration-500"
           >
-            All-Purpose Gravies
+            Gravies
           </a>
           <a
             onClick={() => {
