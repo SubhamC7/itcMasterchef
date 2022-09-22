@@ -1,5 +1,5 @@
 ---
-heroImage: "/images/home-banner-img.jpg"
+heroImage: images/_methode_sundaytimes_prod_web_bin_3ec2d894-1e1b-11ed-a998-c45bf98575eb.jpg
 aboutTitle: About ITC Master Chef of India
 aboutText: ITC Master Chef aims to inspire you to find your inner Master Chef.
   It brings a range of quality ingredients and ready to cook products that make
@@ -8,23 +8,19 @@ aboutText: ITC Master Chef aims to inspire you to find your inner Master Chef.
   We offer you a range of quality products to make your every day special.
 products:
   - name: Frozen Snacks
-    description:
-      Look at Frozen Snacks in a whole new way - Get nutrition, taste and
+    description: Look at Frozen Snacks in a whole new way - Get nutrition, taste and
       variety all in one go!
-    image: "/images/frozen-snacks.png"
+    image: /images/frozen-snacks.png
   - name: Cooking Pastes
-    description:
-      Chef Style Food, Now at Home in just 3 easy steps - to turn every
+    description: Chef Style Food, Now at Home in just 3 easy steps - to turn every
       novice into a master chef!
-    image: "/images/659x383.png"
+    image: /images/659x383.png
   - name: All-Purpose Gravies
-    description:
-      "One Gravy, Many Dishes. Make a variety of delicious dishes with
+    description: "One Gravy, Many Dishes. Make a variety of delicious dishes with
       just 1 gravy! #ReadyIn123"
-    image: "/images/Website-banner-basegravies.png"
+    image: /images/Website-banner-basegravies.png
   - name: DIPS & SPREADS
-    description:
-      "Elevate everyday meals with our uniquely flavoured dips & spreads!
+    description: "Elevate everyday meals with our uniquely flavoured dips & spreads!
       #DipItSpreadIt"
-    image: "/images/Website-Banner_Chutneys.png"
+    image: /images/Website-Banner_Chutneys.png
 ---
