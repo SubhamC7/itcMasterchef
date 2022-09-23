@@ -3,24 +3,24 @@ import React from "react";
 import aboutImg1 from "assets/images/cheesy-corn-dish.png";
 import aboutImg2 from "assets/images/prawn-noodles.png";
 
-type Props = { data: any; animateClass: any };
+type Props = { data: any; animateClass1: any; animateClass2: any };
 
-const About = ({ data, animateClass }: Props) => {
+const About = ({ data, animateClass1, animateClass2 }: Props) => {
   return (
-    <div className="h-fit lg:h-[35rem] w-full flex flex-wrap items-center justify-center bg-[#713f1244]">
+    <div className="h-fit lg:h-[35rem] w-full flex flex-wrap items-center justify-center aboutBgImg">
       <div
-        className={`${animateClass} w-full lg:w-2/5 h-96 flex flex-wrap items-center justify-center p-4 lg:p-8`}
+        className={`${animateClass2} w-full lg:w-2/5 h-96 flex flex-wrap items-center justify-center p-4 lg:p-8`}
       >
         <div className="w-1/2 lg:w-full h-full lg:h-1/2 flex items-center justify-center lg:justify-end">
-          <img className="w-32 object-cover" src={aboutImg1.src} />
+          <img className="w-40 object-cover" src={aboutImg1.src} />
         </div>
         <div className="w-1/2 lg:w-full h-full lg:h-1/2 flex items-center justify-center lg:justify-end">
-          <img className="w-32 object-cover" src={aboutImg2.src} />
+          <img className="w-40 object-cover" src={aboutImg2.src} />
         </div>
       </div>
       <div className="w-full lg:w-3/5 h-96 flex items-center justify-center lg:justify-start p-4 lg:p-8">
         <div
-          className={`${animateClass} bg-[#9C774E] h-96 w-[22rem] sm:w-[25rem] lg:w-[35rem] flex flex-col items-center justify-center p-4 lg:p-14 text-white space-y-5`}
+          className={`${animateClass1} bg-[#9C774E] h-96 w-[22rem] sm:w-[25rem] lg:w-[35rem] flex flex-col items-center justify-center p-4 lg:p-14 text-white space-y-5`}
         >
           <p className="text-3xl lg:text-4xl font-semibold font-serif text-center">
             {/* About ITC Master Chef */}

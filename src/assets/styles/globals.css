@@ -52,6 +52,12 @@ select:required:invalid {
   background-repeat: no-repeat;
   background-position: center;
 }
+.aboutBgImg {
+  background-image: url("/assets/about-itc-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 .holder {
   opacity: 0;
@@ -71,5 +77,47 @@ select:required:invalid {
   100% {
     opacity: 1;
     transform: translateY(0px);
+  }
+}
+
+.holder2 {
+  opacity: 0;
+  transform: translateX(-100px);
+}
+
+.fadeLeft {
+  animation: fadeLeft 1s both;
+}
+
+@-webkit-keyframes fadeLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.holder3 {
+  opacity: 0;
+  transform: translateX(100px);
+}
+
+.fadeRight {
+  animation: fadeRight 1s both;
+}
+
+@-webkit-keyframes fadeRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
   }
 }

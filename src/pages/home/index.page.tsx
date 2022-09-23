@@ -90,12 +90,28 @@ const Home = (props: Props) => {
   };
 
   const reveal = () => {
-    var elements = document.querySelectorAll(".holder");
+    var elements1 = document.querySelectorAll(".holder1");
 
-    elements.forEach((element) => {
+    elements1.forEach((element) => {
       var top = element.getBoundingClientRect().top;
       if (top < window.innerHeight - 100) {
         element.classList.add("fadeInUp");
+      }
+    });
+    var elements2 = document.querySelectorAll(".holder2");
+
+    elements2.forEach((element) => {
+      var top = element.getBoundingClientRect().top;
+      if (top < window.innerHeight - 100) {
+        element.classList.add("fadeLeft");
+      }
+    });
+    var elements3 = document.querySelectorAll(".holder3");
+
+    elements3.forEach((element) => {
+      var top = element.getBoundingClientRect().top;
+      if (top < window.innerHeight - 100) {
+        element.classList.add("fadeRight");
       }
     });
   };
@@ -109,7 +125,7 @@ const Home = (props: Props) => {
     <>
       <div className="fixed h-screen w-full bg-orange-200 overflow-hidden">
         <img
-          className="h-full w-full object-cover opacity-30"
+          className="h-full w-full lg:w-2/3 object-cover opacity-20"
           src={bgImg.src}
         />
       </div>
@@ -121,28 +137,32 @@ const Home = (props: Props) => {
       <div className={`z-10 relative ${paddingClass}`}>
         <div ref={product1Ref}>
           <Product1
-            animateClass="holder"
+            animateClass1="holder2"
+            animateClass2="holder3"
             smoothScroll={smoothScroll}
             data={products[0]}
           />
         </div>
         <div ref={product2Ref}>
           <Product2
-            animateClass="holder"
+            animateClass1="holder2"
+            animateClass2="holder3"
             smoothScroll={smoothScroll}
             data={products[1]}
           />
         </div>
         <div ref={product3Ref}>
           <Product3
-            animateClass="holder"
+            animateClass1="holder2"
+            animateClass2="holder3"
             smoothScroll={smoothScroll}
             data={products[2]}
           />
         </div>
         <div ref={product4Ref}>
           <Product4
-            animateClass="holder"
+            animateClass1="holder2"
+            animateClass2="holder3"
             smoothScroll={smoothScroll}
             data={products[3]}
           />
@@ -151,7 +171,8 @@ const Home = (props: Props) => {
       <div ref={aboutRef} className={`z-10 relative`}>
         <About
           data={{ title: aboutTitle, body: aboutText }}
-          animateClass="holder"
+          animateClass1="holder1"
+          animateClass2="holder2"
         />
       </div>
       <Footer smoothScroll={smoothScroll} />
